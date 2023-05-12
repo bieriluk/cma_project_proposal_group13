@@ -6,7 +6,7 @@ Analysis Geo 880**
 | Semester:      | FS23                                     |
 |:---------------|:---------------------------------------- |
 | **Data:**      | Pooled POSMO tracking data               |
-| **Title:**     | The title of your project                |
+| **Title:**     | Transport Mode Detection & Weather       |
 | **Student 1:** | Valentin Hett (hettval1)                 |
 | **Student 2:** | Lukas Bieri (bieriluk)                   |
 
@@ -14,7 +14,8 @@ Analysis Geo 880**
 <!-- (50-60 words) -->
 
 ## Research Questions
-<!-- (50-60 words) -->
+1. Can Transport Mode Detection for the pooled POSMO tracking data be improved using (a) the stepwise procedure described in Sadeghian et al (2022), (b) public transport timetables and (c) elevation models
+2. Is there a increase in the use of public transport and/or cars vs. bikes and walking on rainy days
 
 ## Results / products
 <!-- What do you expect, anticipate? -->
