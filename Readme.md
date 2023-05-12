@@ -5,10 +5,10 @@ Analysis Geo 880**
 
 | Semester:      | FS23                                     |
 |:---------------|:---------------------------------------- |
-| **Data:**      | What type of data are you focussing on?  |
+| **Data:**      | Pooled POSMO tracking data               |
 | **Title:**     | The title of your project                |
-| **Student 1:** | Name of Student 1                        |
-| **Student 2:** | Name of Student 2                        |
+| **Student 1:** | Valentin Hett (hettval1)                 |
+| **Student 2:** | Lukas Bieri (bieriluk)                   |
 
 ## Abstract 
 <!-- (50-60 words) -->
