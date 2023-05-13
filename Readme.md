@@ -32,24 +32,24 @@ The data is provided by different students, which tracked their movement by POSM
 As we are looking at all the collected movement data, we operate in an unconstrained movement space, however we make use of constrained movement spaces for detecting the mode of transport, since trains and busses are restricted to their respective routes. 
 **Improved Transport Mode Detection**
 
-*1. Noise reduction*
-The tracking data from the pool of POSMO app data is combined, cleaned, outliers are removed, and the data is resampled using linear interpolation to have a consistent time lag between points. The parameters for these steps are derived from repeated Explorative Data Analysis (EDA) by visualization and descriptive statistics. 
-*2. Segmentation*
-The trajectories are cut into segments using the method as described in (Laube & Purves, 2011). This is done by detecting static fixes using a temporal moving window (v) to calculate the mean Euclidian distance between the points and comparing this to a threshold (d) for non-movement. Short segments are removed.
-*3. Features extraction*
-As the basis for the Transport Mode Detection features are calculated from the data such as: speed, acceleration, step length and time lag (s. Segmentation). The bearing is also calculated. These features are then summarised for each segment (mean, max, min, change rate).
-*4. Unsupervised algorithm*
-The K-means clustering algorithm is used to preliminarily label segments using the above-mentioned descriptive statistics and thresholds for the different mode patterns. The clearly identified to belong to one transport mode are labelled, saved, and removed. This reduces the size of the data set for further processing.
-*5. Spatial Multi-Criteria Analysis 
-The data is then further classified using multiple criteria including a comparison with public transport schedule data provided by the Swiss Federal Railways SBB.
-*6. Supervised learning algorithms* 
-The remaining data set is then further labelled using the Random Forest (RF) supervised learning algorithm.
-*7. Evaluation of improvement in transport mode detection*
+*1. Noise reduction*  
+The tracking data from the pool of POSMO app data is combined, cleaned, outliers are removed, and the data is resampled using linear interpolation to have a consistent time lag between points. The parameters for these steps are derived from repeated Explorative Data Analysis (EDA) by visualization and descriptive statistics.   
+*2. Segmentation*  
+The trajectories are cut into segments using the method as described in (Laube & Purves, 2011). This is done by detecting static fixes using a temporal moving window (v) to calculate the mean Euclidian distance between the points and comparing this to a threshold (d) for non-movement. Short segments are removed.  
+*3. Features extraction*  
+As the basis for the Transport Mode Detection features are calculated from the data such as: speed, acceleration, step length and time lag (s. Segmentation). The bearing is also calculated. These features are then summarised for each segment (mean, max, min, change rate).  
+*4. Unsupervised algorithm*  
+The K-means clustering algorithm is used to preliminarily label segments using the above-mentioned descriptive statistics and thresholds for the different mode patterns. The clearly identified to belong to one transport mode are labelled, saved, and removed. This reduces the size of the data set for further processing.  
+*5. Spatial Multi-Criteria Analysis*   
+The data is then further classified using multiple criteria including a comparison with public transport schedule data provided by the Swiss Federal Railways SBB.  
+*6. Supervised learning algorithms*   
+The remaining data set is then further labelled using the Random Forest (RF) supervised learning algorithm.  
+*7. Evaluation of improvement in transport mode detection*  
 The resulting data set with all labelled segments is the compared to ground truth data for one person in the sample to determine the accuracy of the assigned labels. This is also compared to the assigned labels by POSMO.
 
 **Punctuality Evaluation of public transport**
-*8. Assigning stations and calculation times*
-Each segment of public transportation is assigned a departure and arrival station as well as a calculated actual departure time and arrival time. 
+*8. Assigning stations and calculation times*  
+Each segment of public transportation is assigned a departure and arrival station as well as a calculated actual departure time and arrival time.  
 *9. *
 
 ## R concepts
