@@ -15,11 +15,12 @@ Analysis Geo 880**
 
 
 ## Research Questions  <!--(50-60 words)-->
-1. Can Transport Mode Detection for the pooled POSMO tracking data be improved using (a) the stepwise procedure described in Sadeghian et al (2022) and with (b) public transport timetables
-2. How reliable is the public transport around Wädenswil according to the timetables?
+1. Can Transport Mode Detection for the pooled POSMO tracking data be improved using (a) the stepwise procedure described in Sadeghian et al (2022) and with (b) public transport timetables?
+2. Is it possible to accurately assess the punctuality of public transport using the data provided by POSMO?
 
 ## Results / products
 <!-- What do you expect, anticipate? -->
+Posmo is a relativly new application for tracking the movement of people. The tracking is carried out with GPS, which is known for the variable precision. It may lead to wrong conclusion and the differentiation of public transport methods could be difficult to define. In order to allow the time to capture the reliability and the correct punctuality, the maximum deviation must be defined. 
 
 
 ## Data
