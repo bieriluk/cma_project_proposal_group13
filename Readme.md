@@ -15,11 +15,12 @@ Analysis Geo 880**
 
 
 ## Research Questions  <!--(50-60 words)-->
-1. Can Transport Mode Detection for the pooled POSMO tracking data be improved using (a) the stepwise procedure described in Sadeghian et al (2022), (b) public transport timetables and (c) elevation models
-2. 
+1. Can Transport Mode Detection for the pooled POSMO tracking data be improved using (a) the stepwise procedure described in Sadeghian et al (2022) and with (b) public transport timetables
+2. How reliable is the public transport around Wädenswil according to the timetables?
 
 ## Results / products
 <!-- What do you expect, anticipate? -->
+
 
 ## Data
 <!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
