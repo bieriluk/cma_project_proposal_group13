@@ -7,8 +7,8 @@ Analysis Geo 880**
 |:---------------|:---------------------------------------- |
 | **Data:**      | Pooled POSMO tracking data               |
 | **Title:**     | Transport Mode Detection & Weather       |
-| **Student 1:** | Valentin Hett (hettval1)                 |
-| **Student 2:** | Lukas Bieri (bieriluk)                   |
+| **Student 1:** | Lukas Bieri (bieriluk)                   |
+| **Student 2:** | Valentin Hett (hettval1)                 |
 
 ## Abstract 
 <!-- (50-60 words) -->
