@@ -47,3 +47,7 @@ Analysis Geo 880**
 
 ## Questions? 
 <!-- Which questions would you like to discuss at the coaching session? -->
+
+## Literature
+
+Sadeghian, P., Zhao, X., Golshan, A., & Håkansson, J. (2022). A stepwise methodology for transport mode detection in GPS tracking data. Travel Behaviour and Society, 26, 159–167. https://doi.org/10.1016/j.tbs.2021.10.004
