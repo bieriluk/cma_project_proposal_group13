@@ -15,7 +15,7 @@ Analysis Geo 880**
 
 ## Research Questions
 1. Can Transport Mode Detection for the pooled POSMO tracking data be improved using (a) the stepwise procedure described in Sadeghian et al (2022), (b) public transport timetables and (c) elevation models
-2. What is the impact of weather data on Transport Mode Choices?
+2. 
 
 ## Results / products
 <!-- What do you expect, anticipate? -->
