@@ -20,11 +20,12 @@ Analysis Geo 880**
 
 ## Results / products
 <!-- What do you expect, anticipate? -->
-Posmo is a relativly new application for tracking the movement of people. The tracking is carried out with GPS, which is known for the variable precision. It may lead to wrong conclusion and the differentiation of public transport methods could be difficult to define. In order to allow the time to capture the reliability and the correct punctuality, the maximum deviation must be defined. 
+Posmo is a relativly new application for tracking the movement of people. The tracking is carried out with GPS, which is known for the variable precision. It may lead to wrong conclusion and the differentiation of public transport methods could be difficult to define. In order to allow the time to capture the reliability and the correct punctuality, the maximum deviation must be defined. If the GPS data isn't varying to much, it should be possible to reconstruct the pathways of the individual type of movement.   
 
 
 ## Data
 <!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
+The data is provided by different students, which tracked their movement by POSMO. They have been pooled and anonymized so that an evaluation of the data cannot be influenced by individual students. The data will most likely originate throughout Switzerland. In order to verify the method, the system boundaries are initially set in the ZVV transport infrastructure in Wädenswil. With further evaluations, the system boundaries can be extended or even further limited. For this purpose, the departure and arrival times of public transport are also required. These are provided by the public transport companies. The times will differ from the performed times, therefore it should be possible to render the data comparable.
 
 ## Analytical concepts
 <!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
