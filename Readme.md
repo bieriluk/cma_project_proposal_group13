@@ -29,15 +29,17 @@ Analysis Geo 880**
 <!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
 
 **Improved Transport Mode Detection**
-1. Noise reduction 
-2. Segmentation 
-3. Features extraction 
-4. Unsupervised algorithm
-5. spatial Multi-Criteria Decision Analysis (sMCDA)
-6. Supervised learning algorithms 
+
+*1. Noise reduction*
+The tracking data from the pool of POSMO app data is combined, cleaned, outliers are removed and the data is resampled to have a consistent timelag between points. The parameters for these steps are derived from repeated Explorative Data Analysis by Visialization and descriptive statistics. 
+*2. Segmentation*
+*3. Features extraction*
+*4. Unsupervised algorithm*
+*5. spatial Multi-Criteria Decision Analysis (sMCDA)*
+*6. Supervised learning algorithms* 
 
 **Punctuality Evaluation of public transport**
-7. 
+*7. *
 
 ## R concepts
 <!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
