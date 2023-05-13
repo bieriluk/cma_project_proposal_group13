@@ -11,7 +11,11 @@ Analysis Geo 880**
 | **Student 2:** | Valentin Hett (hettval1)                 |
 
 ## Abstract 
-<!-- (50-60 words) -->
+<!-- (50-60 words) --> 
+
+!!!ACHTUNG 100 Wörter!!!! muss noch gekürzt oder umgeschrieben werden!!!!
+
+Movement patterns accompany each individual throughout life. These can be tracked with different recording devices. The POSMO app can be used as an example of such a method. It can detect and record movement patterns via GPS. It may occur that some recording are detected as wrong transportation due to similar data structures, e.g. that a bicycle is detected as a bus ride or the other way around. This leads to the question if and how an improvement of the recording can be implemented. With the help of learned techniques, the data is read into RStudio and analyzed. 
 
 
 ## Research Questions  <!--(50-60 words)-->
