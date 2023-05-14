@@ -3,12 +3,12 @@
 **Patterns & Trends in Environmental Data / Computational Movement
 Analysis Geo 880**
  
-| Semester:      | FS23                                                             |
-|:---------------|:---------------------------------------------------------------- |
-| **Data:**      | Pooled POSMO tracking data                                       |
-| **Title:**     | Improved Transport Mode Detection & Public Transport Punctuality |
-| **Student 1:** | Lukas Bieri (bieriluk)                                           |
-| **Student 2:** | Valentin Hett (hettval1)                                         |
+| Semester:      | FS23                                                                        |
+|:---------------|:--------------------------------------------------------------------------- |
+| **Data:**      | Pooled POSMO tracking data                                                  |
+| **Title:**     | Improved Transport Mode Detection & Public Transport Punctuality Assessment |
+| **Student 1:** | Lukas Bieri (bieriluk)                                                      |
+| **Student 2:** | Valentin Hett (hettval1)                                                    |
  
 ## Abstract 
 <!-- (50-60 words) --> 
@@ -25,8 +25,8 @@ If the GPS-data is precise and accurate enough and we can set appropriate thresh
  
 ## Data
 <!-- What data will you use? Will you require additional context data? Where do you get this data from? Do you already have all the data? -->
-The tracking data is provided voluntarily and anonymised by students in this module. They tracked their movement using the POSMO-App. The data contains tracking data for several month from throughout Switzerland. The data is entity-based point data in a continuous movement space with time stamps in three dimensions (coordinates and time).  
-To help with TMD, we will also be using publicly available data on stations, routes and timetables for public transport. These are provided by the Swiss public transportation companies in Open-Data-Platforms such as opentransportdata.swiss and data.stadt-zuerich.ch.
+The tracking data is provided voluntarily and anonymised by students in this module. They tracked their movement using the [POSMO-App](https://posmo.coop/produkte/posmo-project-tracking-fuer-gruppen). The data contains tracking data for several month from throughout Switzerland. The data is entity-based point data in a continuous movement space with time stamps in three dimensions (coordinates and time).  
+To help with TMD, we will also be using publicly available data on stations, routes and timetables for public transport. These are provided by the Swiss public transportation companies in Open-Data-Platforms such as [opentransportdata.swiss](https://opentransportdata.swiss/en/dataset/timetable-2023-gtfs2020) and [data.stadt-zuerich.ch](https://data.stadt-zuerich.ch/dataset/vbz_fahrplandaten_gtfs/resource/b773832e-9f64-431a-b731-73c498755a9f).
  
 ## Analytical concepts
 <!-- Which analytical concepts will you use? What conceptual movement spaces and respective modelling approaches of trajectories will you be using? What additional spatial analysis methods will you be using? -->
