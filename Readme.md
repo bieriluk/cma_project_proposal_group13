@@ -34,6 +34,7 @@ As we are looking at all the collected movement data, we operate in an unconstra
 In order to verify the method, the system boundaries are initially set as the ZVV public transportation network. The system boundaries can be extended or even further limited, depending on the outcomes of the analysis.
  
 **Improved Transport Mode Detection**
+ 
 *1. Noise reduction*
 The tracking data from the pool of POSMO app data is combined, cleaned, outliers are removed, and the data is resampled using linear interpolation to have a consistent time lag between points. The parameters for these steps are derived from repeated Explorative Data Analysis (EDA) by visualization and descriptive statistics. 
  
@@ -46,7 +47,7 @@ Features are calculated as the basis for the TMD such as: speed, acceleration, s
 *4. Unsupervised algorithm*
 The K-means clustering algorithm is used to preliminarily label segments using the above-mentioned descriptive statistics and appropriate thresholds for the different mode patterns. Those clearly identified to belong to one transport mode are labelled, saved and removed. This reduces the size of the data set for further processing.
  
-*5. Spatial Multi-Criteria Analysis 
+*5. Spatial Multi-Criteria Analysis* 
 The data is then further classified using multiple criteria analysis including a comparison with public transport schedule data provided by the Swiss Federal Railways SBB. Clearly categorized segments with only one classification are again labelled, saved and removed.
  
 *6. Supervised learning algorithms* 
@@ -56,6 +57,7 @@ The remaining data set is then labelled using the Random Forest (RF) supervised 
 The resulting data set with all labelled segments is then compared to ground truth data for one person in the sample to determine the accuracy of the assigned labels. This is also compared to the assigned labels by POSMO.
  
 **Punctuality Evaluation of public transport**
+ 
 *8. Assigning stations and calculation times*
 Each public transportation segment is assigned a departure and arrival station as well as a calculated actual departure time and arrival time. 
  
@@ -65,6 +67,7 @@ Based on a predefined temporal window, each segment is assigned a connection wit
 ## R concepts
 <!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
 All analysis will be done in R, using R-Studio.  
+ 
 In addition to basic pre-processing, analysis, and visualization tools such as ggplot2, dplyr, tidyr and readr, we will use the following tools:  
 1.	Moving window functions from the “zoo” package
 2.	The data analysis tools in the “data.table” package
@@ -82,9 +85,9 @@ POSMO is a relatively new application for tracking the movement of people. The t
  
 ## Questions? 
 <!-- Which questions would you like to discuss at the coaching session? -->
-1.	Given our data, is it more sensible to go with our methodological version for the second research question, rather than actually evaluating punctuality of public transport?
-2.	In your experience, is the task we give ourselves with these two research questions possible given time constraints and limited experience with these clustering tools.
-3.	What would be a useful tool in R to each measure the distance of a point (GPS-fix) to a railway network (vector, line)
+1.	Given our data, is it more sensible to go with our methodological version for the second research question, rather than actually evaluating punctuality of public transport?  
+2.	In your experience, is the task we give ourselves with these two research questions possible given time constraints and limited experience with these clustering tools.  
+3.	What would be a useful tool in R to each measure the distance of a point (GPS-fix) to a railway network (vector, line)  
  
 ## Literature
 Laube, P., & Purves, R. S. (2011). How fast is a cow? Cross-Scale Analysis of Movement Data. Transactions in GIS, 15(3), 401–418. https://doi.org/10.1111/j.1467-9671.2011.01256.x
