@@ -14,7 +14,7 @@ Analysis Geo 880**
 <!-- (50-60 words) --> 
 In this semester project we will evaluate if Transport Mode Detection of GPS-tracking data can be improved using the stepwise procedure described in (Sadeghian et al., 2022) implemented in R and using publicly available public transport timetables. We will figure out, if this newly classified data can be used to assess punctuality of public transport for this sample.
  
-## Research Questions  <!--(50-60 words)-->
+## Research Questions  <!--(50-60 wds)-->
 1. Can Transport Mode Detection (TMD) for the pooled POSMO tracking data be improved using (a) the stepwise procedure described in (Sadeghian et al., 2022) and with (b) public transport timetables?
 2. Is it possible to accurately assess the punctuality of public transport using the data provided by POSMO?
  
